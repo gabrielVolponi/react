@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Sobre from './pages/Sobre';
 import { Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Sobre />} />
       </Routes>
 
+      <Footer/>
     </>
     
   )
