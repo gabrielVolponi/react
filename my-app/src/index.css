@@ -80,7 +80,6 @@ ul li:hover{
 }
 
 .hero img{
-  width: 70%;
   height: 100%;
   border-radius: 30px;
 }
@@ -89,20 +88,22 @@ ul li:hover{
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  width: 100%;
 }
 
 .heroContainer h2{
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 100%;
-  text-decoration: underline;
   text-align: start;
+  font-size: 3rem;
 }
 
 .heroContainer h4{
   font-style: italic;
   margin-bottom: 1rem;
   text-align: start;
+  color: #ffd700;
 }
 
 .heroContainer p{
