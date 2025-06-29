@@ -80,7 +80,6 @@ ul li:hover{
 }
 
 .hero img{
-  width: 70%;
   height: 100%;
   border-radius: 30px;
 }
@@ -89,20 +88,22 @@ ul li:hover{
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  width: 100%;
 }
 
 .heroContainer h2{
   margin-top: 1rem;
   margin-bottom: 1rem;
   width: 100%;
-  text-decoration: underline;
   text-align: start;
+  font-size: 3rem;
 }
 
 .heroContainer h4{
   font-style: italic;
   margin-bottom: 1rem;
   text-align: start;
+  color: #ffd700;
 }
 
 .heroContainer p{
@@ -113,7 +114,7 @@ ul li:hover{
   width: 90%;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 8rem auto;
 }
 
 .SectionPublico h2{
@@ -165,7 +166,7 @@ ul li:hover{
   justify-content: end;
   align-items: start;
   text-align: center;
-  color: white;
+  color:#ffd700;
   border-radius: 30px;
   text-align: start;
   margin: 0.5rem;
@@ -224,8 +225,16 @@ ul li:hover{
   flex-wrap: wrap;
 }
 
-.compliance span{
+.compliance{
   margin-bottom: 0.5rem;
+  transition: ease-in-out 300ms;
+}
+
+.compliance:hover{
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+  scale: 1.1;
+  cursor: pointer;
 }
 
 .footer-links {
@@ -248,3 +257,91 @@ ul li:hover{
 .footer-links i{
   font-size: 2rem;
 }
+
+.sectionContato{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.sectionContato h2{
+  text-align: center;
+}
+
+.sectionContato p{
+  text-align: start;
+  width: 50%;
+  margin: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.inputField{
+  margin-top: 1rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.inputField label{
+  font-weight: bold;
+}
+
+.inputField input{
+  width: 100%;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.qtdPessoas{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.inputField textarea{
+  min-width: 100%;
+  border: 1px solid black;
+  resize: none;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+}
+
+
+.btnEnviar{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  margin: 1rem;
+  font-weight: bold;
+  transition: ease-in-out 400ms;
+}
+
+.btnEnviar:hover{
+  background-color: #ffd700;
+  /* border: 1px solid #ffd700; */
+  color: black;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
