@@ -114,7 +114,7 @@ ul li:hover{
   width: 90%;
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 8rem auto;
 }
 
 .SectionPublico h2{
@@ -166,7 +166,7 @@ ul li:hover{
   justify-content: end;
   align-items: start;
   text-align: center;
-  color: white;
+  color:#ffd700;
   border-radius: 30px;
   text-align: start;
   margin: 0.5rem;
@@ -225,8 +225,16 @@ ul li:hover{
   flex-wrap: wrap;
 }
 
-.compliance span{
+.compliance{
   margin-bottom: 0.5rem;
+  transition: ease-in-out 300ms;
+}
+
+.compliance:hover{
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+  scale: 1.1;
+  cursor: pointer;
 }
 
 .footer-links {
