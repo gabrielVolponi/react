@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;  
 }
-body {
+
+
+#root {
   min-height: 100dvh;
 }
 .header{
@@ -291,6 +293,7 @@ form{
   margin: auto;
   gap: 0.5rem;
   margin-top: 1rem;
+  margin-bottom: 7rem;
 }
 
 .inputField{
