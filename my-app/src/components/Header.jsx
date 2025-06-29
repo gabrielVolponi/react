@@ -7,7 +7,7 @@ function Header(props) {
         <img src={props.src} alt="Logo" />
         <span>Passeio de Trem</span>
       </div>
-      <Nav paginaAtual={props.paginaAtual} />
+      <Nav />
     </div>
   );
 }
