@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;  
 }
-
+body {
+  min-height: 100dvh;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -63,7 +65,7 @@ ul li:hover{
 
 .paginaAtual{
   background-color: black;
-  color: white;
+  color: white !important;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -343,5 +345,14 @@ form{
   cursor: pointer;
   scale: 1.1;
 }
+a {          
+  text-decoration: none;     
+}
 
+a:visited {
+  color: inherit;            
+}
 
+a:hover {
+  text-decoration: underline;
+}
