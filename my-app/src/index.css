@@ -17,6 +17,17 @@
   border-radius: 45px;
 }
 
+.headerLogo{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.headerLogo span{
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
 .header img{
   width: 4rem;
   height: 4rem;
@@ -197,6 +208,7 @@ ul li:hover{
   border: none;
   margin-top: 3rem;
   box-sizing: border-box;
+  border-radius: 30px;
 }
 
 .footer-content {
@@ -205,6 +217,10 @@ ul li:hover{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.compliance span{
+  margin-bottom: 0.5rem;
 }
 
 .footer-links {

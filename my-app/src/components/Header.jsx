@@ -1,13 +1,15 @@
-import Nav from './Nav'
+import Nav from "./Nav";
 
 function Header(props) {
-    return (
-      <div className="header">
+  return (
+    <div className="header">
+      <div className="headerLogo">
         <img src={props.src} alt="Logo" />
-        <Nav paginaAtual={props.paginaAtual} />
+        <span>Passeio de Trem</span>
       </div>
-    );
+      <Nav paginaAtual={props.paginaAtual} />
+    </div>
+  );
 }
 
-
-export default Header
+export default Header;
