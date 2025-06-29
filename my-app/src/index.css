@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 0.8rem 1rem;
+  border-radius: 45px;
+}
+
+.header img{
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 1rem;
+  transition: ease-in-out 300ms;
+}
+
+.header img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+ul li{
+  font-weight:bold;
+  transition: ease-in-out 300ms;
+}
+
+ul li:hover{
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.paginaAtual{
+  background-color: black;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
