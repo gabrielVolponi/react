@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;  
 }
 
 .header{
@@ -167,7 +169,7 @@ ul li:hover{
   font-weight: bold;
   border: 1px solid white;
   padding: 0.5rem 0.5rem;
-  width: 40%;
+  width: 50%;
   border-radius: 30px;
   background-color: black;
   text-align: center;
