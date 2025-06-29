@@ -93,3 +93,51 @@ ul li:hover{
 .heroContainer p{
   text-align: start;
 }
+
+.SectionPublico{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.cards{
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.cardSection{
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  color: white;
+}
+
+.cardSection img{
+  width: 100%;
+  border: 1px;
+  border-radius: 30px;
+}
+
+.cardSectionText{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: start;
+  position:relative;
+  top: -6rem;
+}
+
+.cardSectionText a{
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 0.5rem 0.5rem;
+  width: 40%;
+  border-radius: 30px;
+  background-color: black;
+  text-align: center;
+}
